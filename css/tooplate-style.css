@@ -169,7 +169,11 @@ ul {
 .external_link {
     color: #010257;
 }
-
+.icon {
+    color: #fff;
+    font-size: 32px;
+    display: block;
+}
 @media (max-width: 500px) {
     .left-text {
         padding-left: 5%;
@@ -177,11 +181,6 @@ ul {
         width: 370px;
         text-align: center;
     }
-}
-.icon {
-    color: #fff;
-    font-size: 32px;
-    display: block;
 }
 
 ul .icon:hover {
@@ -238,8 +237,13 @@ ul .icon:hover {
 
 ul li {
     margin: 30px 0;
+    padding: 0;
 }
-
+@media (max-width: 600px) {
+    ul li {
+        margin: 15px 0;
+    }
+}
 a {
     text-decoration: none !important;
 }
@@ -543,6 +547,7 @@ a {
 @media (max-width: 600px) {
     ul {
         padding-top: 0% !important;
+        padding-left: 5% !important;
     }
 }
 
