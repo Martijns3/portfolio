@@ -170,15 +170,9 @@ ul {
     color: #010257;
 }
 
-@media (max-width: 850px) {
-    .external_link {
-        color: #91a8b3;
-    }
-}
-
 @media (max-width: 500px) {
     .left-text {
-        padding-left: 10%;
+        padding-left: 5%;
         padding-right: 5%;
         width: 370px;
         text-align: center;
