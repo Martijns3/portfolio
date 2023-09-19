@@ -86,7 +86,7 @@ z-index: 1;
 
 @media (max-width: 500px){
   #t1:target .page#p1 {
-    transform: translateX(-2.5%);
+    transform: translateX(-3%);
 }
 
 }
