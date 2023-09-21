@@ -269,7 +269,7 @@ a {
 }
 
 .page {
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .page#p1 .icon {
